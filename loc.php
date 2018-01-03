@@ -1,7 +1,7 @@
 <?php
 /*
     JNCK MEDIA (c) 2018
-    https://github.com/dandyraka/InstaLocID
+    https://github.com/dandyraka/InstaLoc
     Dandy Raka
 */
 function curl($link){
