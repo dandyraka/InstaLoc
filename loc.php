@@ -1,20 +1,22 @@
 <?php
 /*
     JNCK MEDIA (c) 2018
-    https://github.com/dandyraka/InstaLoc
+    https://github.com/dandyraka/TelkBombV2
     Dandy Raka
 */
+
 function curl($link){
-    $c = curl_init();
-    curl_setopt($c, CURLOPT_URL, $link);
-    curl_setopt($c, CURLOPT_FOLLOWLOCATION, true);
+	$c = curl_init();
+	curl_setopt($c, CURLOPT_URL, $link);
+	curl_setopt($c, CURLOPT_FOLLOWLOCATION, true);
 	curl_setopt($c, CURLOPT_SSL_VERIFYPEER, 0);
 	curl_setopt($c, CURLOPT_SSL_VERIFYHOST, 0);
-    curl_setopt($c, CURLOPT_RETURNTRANSFER, true);
-    $x = curl_exec($c);
-    curl_close($c);
-    return $x;
+	curl_setopt($c, CURLOPT_RETURNTRANSFER, true);
+	$x = curl_exec($c);
+	curl_close($c);
+	return $x;
 }
+
 echo "Location : ";
 $search_loc = trim(fgets(STDIN));
 
