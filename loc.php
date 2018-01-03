@@ -1,7 +1,7 @@
 <?php
 /*
     JNCK MEDIA (c) 2018
-    https://github.com/dandyraka/TelkBombV2
+    https://github.com/dandyraka/InstaLoc
     Dandy Raka
 */
 
